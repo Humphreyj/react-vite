@@ -1,0 +1,2 @@
+# react-vite
+Some stuff
