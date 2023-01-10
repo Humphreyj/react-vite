@@ -1,0 +1,36 @@
+@import "tailwindcss/components";
+@layer components {
+  .button {
+    @apply h-16 px-4 border rounded-lg cursor-pointer text-14 w-max border-shadowBorder;
+  }
+  .button-default {
+    @apply font-bold text-white bg-grayCool800 hover:shadow-lg;
+  }
+  .button-primary {
+    @apply font-bold text-white bg-teal-500 hover:shadow-lg;
+  }
+  .button-dark {
+    @apply font-bold text-white bg-teal-700 hover:shadow-lg;
+  }
+  .button-success {
+    @apply font-bold text-white bg-green-500 hover:shadow-lg;
+  }
+  .button-action {
+    @apply font-bold text-green-500 bg-white border border-green-500 rounded-lg hover:shadow-lg;
+  }
+  .button-error {
+    @apply text-white text-red-500 bg-white border border-red-500 rounded-lg hover:shadow-lg;
+  }
+  .button-basic {
+    @apply font-bold bg-white text-grayCool800 hover:shadow-lg;
+  }
+  .button-disabled {
+    @apply font-bold bg-white cursor-not-allowed text-grayCool800 hover:shadow-lg;
+  }
+  .button-basic-dark {
+    @apply font-bold text-grayCool800 bg-grayWarm100 hover:shadow-lg;
+  }
+  .quickfilter {
+    @apply flex items-center justify-between h-10 px-3 py-2 ml-4 bg-teal-100 border border-teal-300 rounded-lg cursor-pointer w-max;
+  }
+}

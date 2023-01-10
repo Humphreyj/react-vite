@@ -1,0 +1,14 @@
+@import "tailwindcss/components";
+@layer components {
+  .content-container {
+    @apply w-11/12  m-auto py-2;
+  }
+
+  .card-container {
+    @apply flex items-center w-full my-2 bg-white border rounded-lg  border-shadowBorder h-80 sm:h-64 xl:h-32;
+  }
+
+  .accordion-section {
+    @apply flex flex-col items-start justify-start py-2 px-4 mx-auto mt-8 bg-white border rounded-lg shadow  border-shadowBorder;
+  }
+}

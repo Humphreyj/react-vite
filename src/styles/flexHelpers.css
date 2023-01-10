@@ -1,0 +1,28 @@
+@import "tailwindcss/utilities";
+@layer utilities {
+  .flex-ic-je {
+    @apply flex items-center justify-evenly;
+  }
+  .flex-ic-jc {
+    @apply flex items-center justify-center;
+  }
+  .flex-ic-jend {
+    @apply flex items-center justify-end;
+  }
+  .flex-ic-js {
+    @apply flex items-center justify-start;
+  }
+  .flex-ic-jb {
+    @apply flex items-center justify-between;
+  }
+  .flex-ib-jb {
+    @apply flex items-baseline justify-between;
+  }
+
+  .flex-col-is-js {
+    @apply flex flex-col items-start justify-start;
+  }
+  .flex-col-ic-jc {
+    @apply flex flex-col items-center justify-center;
+  }
+}

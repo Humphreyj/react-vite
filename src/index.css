@@ -1,0 +1,12 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@import "./styles/containerStyles.css";
+@import "./styles/buttonStyles.css";
+@import "./styles/flexHelpers.css";
+
+html,
+body {
+  font-size: 62.5%;
+}
